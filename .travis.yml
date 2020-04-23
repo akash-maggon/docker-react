@@ -10,7 +10,7 @@ script:
 
 deploy: 
  provider:elasticbeanstalk 
- region: "ap-south-1"
+ region:"ap-south-1"
  app:"Docker React"
  env:"DockerReact-env"
  bucket_name: "elasticbeanstalk-ap-south-1-329640325154"
